@@ -45,6 +45,7 @@ header ul{
 
 nav ul li a{
   font-size: 20px;
+  font-weight: 530;
   text-decoration: none;
   color: white;
   margin: 0 60px;
@@ -55,19 +56,20 @@ nav ul li a:hover{
   text-decoration: underline;
 }
 
-header .button{
+header .button-w{
   background-color: white;
-  color: black;
   padding: 6px 25px;
   font-size: 20px;
+  font-weight: 500;
   border-radius: 40px;
 }
 
-header .button a{
+header .button-w a{
   text-decoration: none;
+  color: black;
 }
 
-header .button a:hover{
+header .button-w a:hover{
   color: lightsalmon;
   text-decoration: underline;
 }
@@ -81,17 +83,72 @@ header .button a:hover{
   justify-content: center;
   align-items: center;
   margin-bottom: 160px;
-
-  /* DEBUG */
-  background-color: lightblue;
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
 }
 
 .jumbotron .content{
   max-width: 800px;
+  color: white;
+  text-align: center;
+ }
 
- /* DEBUG */
-  background-color: rgb(23, 74, 92);
+.jumbotron .content h1{
+  font-size: 45px;
+  padding-bottom: 50px;
 }
+
+.jumbotron .content .text{
+  font-size: 20px;
+  font-weight: 550;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.jumbotron .jumbo-bottom{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.jumbotron .jumbo-bottom .button-w{
+  background-color: white;
+  padding: 10px 25px;
+  font-size: 23px;
+  font-weight: 500;
+  border-radius: 40px;
+}
+
+.jumbotron .jumbo-bottom .button-w a{
+  text-decoration: none;
+  color: black;
+}
+
+.jumbotron .button-w a:hover{
+  color: lightsalmon;
+  text-decoration: underline;
+}
+
+.jumbotron .jumbo-bottom .button-bk{
+  background-color: #23272A;
+  padding: 10px 25px;
+  font-size: 23px;
+  font-weight: 500;
+  border-radius: 40px;
+}
+
+.jumbotron .jumbo-bottom .button-bk a{
+  text-decoration: none;
+  color: white;
+}
+
+.jumbotron .button-bk a:hover{
+  color: lightsalmon;
+  text-decoration: underline;
+}
+
+
+
 
 /* MAIN */
 
