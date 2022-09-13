@@ -18,8 +18,8 @@ body{
 /* GRIGLIA */
 
 .container{
-  width: 90%;
-  max-width: 1400px;
+  width: 80%;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -35,7 +35,7 @@ header{
 header .container{
   display: flex;
   justify-content: space-between;
-  background-color: red;
+  align-items: center;
 }
 
 header ul{
@@ -43,9 +43,37 @@ header ul{
   list-style: none;
 }
 
-header nav ul li a{
+nav ul li a{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  margin: 0 60px;
+}
+
+nav ul li a:hover{
+  color: lightsalmon;
+  text-decoration: underline;
+}
+
+header .button{
+  background-color: white;
+  color: black;
+  padding: 6px 25px;
+  font-size: 20px;
+  border-radius: 40px;
+}
+
+header .button a{
   text-decoration: none;
 }
+
+header .button a:hover{
+  color: lightsalmon;
+  text-decoration: underline;
+}
+
+
+/* JUMBOTRON */
 
 .jumbotron{
   height: 550px;
