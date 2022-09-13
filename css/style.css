@@ -6,7 +6,11 @@
 }
 
 body{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gotham', 'Helvetica', sans-serif;
+  /* font-family: 'Gotham Black', sans-serif;
+  font-family: 'Gotham Light', sans-serif;
+  font-family: 'Gotham Thin', sans-serif;
+  font-family: 'Gotham XLight', sans-serif; */
 }
 
 /* UTILITY */
@@ -82,7 +86,7 @@ header .button-w a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 160px;
+  margin-bottom: 70px;
   background-image: url('../img/jumbo.png');
   background-size: cover;
 }
@@ -148,8 +152,6 @@ header .button-w a:hover{
 }
 
 
-
-
 /* MAIN */
 
 main{
@@ -168,24 +170,30 @@ section .container{
   display:flex;
 
   /* DEBUG */
-  min-height: 500px;
-  background-color: aquamarine;
+
 }
 
 section .container .image{
-  width: 60%;
-
-  /* DEBUG */
-  min-height: 300px;
-  background-color: lightcoral;
+  width: 65%;
+  background-size: cover;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 section .container .text{
-  width: 40%;
+  width: 35%;
+  padding-top: 30px;
+}
 
-  /* DEBUG */
-  min-height: 300px;
-  background-color: rgb(175, 29, 29);
+section .container .text h2{
+  font-size: 50px;
+  line-height: 60px;
+}
+
+section .container .text p{
+  padding-top: 20px;
+  font-size: 20px;
+  line-height: 1.65;
 }
 
 section.section-bottom .container{
