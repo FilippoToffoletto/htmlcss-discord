@@ -1,0 +1,151 @@
+/* GENERAL */
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* UTILITY */
+.debug{
+  background-color: rgba(170, 0, 0, .75);
+  border: 1px solid black;
+}
+
+/* GRIGLIA */
+
+.container{
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+header{
+  display: flex;
+  align-items: center;
+  background-color: #3161E0;
+  height: 90px;
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+}
+
+header ul{
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li a{
+  text-decoration: none;
+}
+
+.jumbotron{
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 160px;
+
+  /* DEBUG */
+  background-color: lightblue;
+}
+
+.jumbotron .content{
+  max-width: 800px;
+
+ /* DEBUG */
+  background-color: rgb(23, 74, 92);
+}
+
+/* MAIN */
+
+main{
+  padding-top: 50px;
+}
+
+section{
+  margin-bottom: 100px;
+}
+
+section.bg-grey{
+  background-color: #dfdddd;
+}
+
+section .container{
+  display:flex;
+
+  /* DEBUG */
+  min-height: 500px;
+  background-color: aquamarine;
+}
+
+section .container .image{
+  width: 60%;
+
+  /* DEBUG */
+  min-height: 300px;
+  background-color: lightcoral;
+}
+
+section .container .text{
+  width: 40%;
+
+  /* DEBUG */
+  min-height: 300px;
+  background-color: rgb(175, 29, 29);
+}
+
+section.section-bottom .container{
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+/* FOOTER */
+
+
+footer{
+  background-color: #23272A;
+}
+
+.footer-top{
+  display: flex;
+  /* DEBUG */
+  background-color: greenyellow;
+  min-height: 300px;
+}
+
+.footer-top .col-social{
+  width: calc(100% / 3);
+
+  /* DEBUG */
+  background-color: green;
+  min-height: 200px;
+}
+
+.footer-top .col-menu{
+  width: calc(100% / 5);
+
+  /* DEBUG */
+  background-color: rgb(204, 143, 68);
+  min-height: 200px;
+  border: 1px solid black;
+}
+
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+
+  /* DEBUG */
+  background-color: goldenrod;
+  min-height: 200px;
+}
