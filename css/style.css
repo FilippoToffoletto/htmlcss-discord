@@ -168,9 +168,6 @@ section.bg-grey{
 
 section .container{
   display:flex;
-
-  /* DEBUG */
-
 }
 
 section .container .image{
@@ -187,7 +184,7 @@ section .container .text{
 
 section .container .text h2{
   font-size: 50px;
-  line-height: 60px;
+  line-height: 1.3;
 }
 
 section .container .text p{
@@ -201,6 +198,51 @@ section.section-bottom .container{
   justify-content: space-around;
   align-items: center;
 }
+
+section .container .box-text h2{
+  font-size: 50px;
+  line-height: 1.3;
+}
+
+section .container .box-text p{
+  padding-top: 20px;
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+/* bottone */
+
+section .button-cy{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 35\px;
+}
+
+section .button-cy{
+  background-color: #8EA1E1;
+  padding: 10px 25px;
+  font-size: 23px;
+  font-weight: 500;
+  border-radius: 40px;
+}
+
+section .button-cy a{
+  text-decoration: none;
+  color: white;
+}
+
+section .button-cy a:hover{
+  color: lightsalmon;
+  text-decoration: underline;
+}
+
+section.bg-grey.section-bottom{
+  margin-bottom: 0px;
+  padding-bottom: 140px;
+}
+
+
 
 
 /* FOOTER */
